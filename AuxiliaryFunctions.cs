@@ -13,7 +13,7 @@ namespace AuxiliaryFunctions
         public static void CreateMillionPlayers()
         {
 
-            Player[] player = new Player[1000000];
+            var player = new Player[1000000];
 
             var bigHeapOGuids = new HashSet<Guid>();
 
@@ -104,10 +104,9 @@ namespace AuxiliaryFunctions
 
         public static Item[] GetItemsWithLinq(Player player)
         {
-            Item[] arrayOfItems = new Item[player.Items.Count];
-            arrayOfItems = player.Items.ToArray();
 
-            return arrayOfItems;
+
+            return player.Items.ToArray();
         }
         public static Item[] GetItems(Player player)
         {

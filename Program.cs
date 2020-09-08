@@ -25,20 +25,20 @@ namespace vsCode2
         }
         static void Main(string[] args)
         {
-            //Kohta 1
-            //  Auxiliary.CreateMillionPlayers();
+            // Kohta 1
+            // Auxiliary.CreateMillionPlayers();
             // Console.WriteLine("Waiting results");
-            //Console.WriteLine("Done");
+            // Console.WriteLine("Done");
 
 
-            //Kohta 2
+            // Kohta 2
 
             // Auxiliary.CreateItems();
 
 
 
 
-            //Kohta 3
+            //  Kohta 3
             // Auxiliary.Kohta3();
 
             //Kohta 4
